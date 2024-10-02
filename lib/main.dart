@@ -35,6 +35,7 @@ class LoginPage extends StatelessWidget {
           color: Colors.yellow,
         ),
         TextFormField(
+          onTap: ScrollActivity.,
           controller: username,
           decoration: InputDecoration(
             hintText: "Username",
